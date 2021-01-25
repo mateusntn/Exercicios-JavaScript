@@ -1,0 +1,35 @@
+body{
+    background: #E64F08;
+    color: #ffffff;
+    font: normal 20px Arial;
+    
+}
+
+.content {
+    background-color: #fff;
+    color: #000000;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.404);
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.content form div {
+    margin: 5px;
+}
+
+#output, footer, header {
+    text-align: center;
+}
+
+#photo {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    font-style: italic;
+}
+

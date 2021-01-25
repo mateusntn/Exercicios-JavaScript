@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart counting</title>
+</head>
+<body>
+    <header>
+        <h1>Smart counting</h1>
+    </header>
+    <section>
+        <form>
+            <div> 
+                <label for="beginning">Beginning: </label>
+                <input type="number" name="beginning" id="beginning">
+            </div>
+
+            <div>
+                <label for="end">End: </label>
+                <input type="number" name="end" id="end">
+            </div>
+
+            <div>
+                <label for="step">Step: </label>
+                <input type="number" name="step" id="step">
+            </div>
+
+            <input type="button" value="Count" onclick="count()">
+
+            <p id="output"></p>
+        </form>
+    </section>
+    <footer>
+        <p>@mateusantoniodev</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

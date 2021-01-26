@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Array Analyzer</title>
+</head>
+<body>
+    <header>
+        <h1>Array Analyzer</h1>
+    </header>
+    <section>
+        <form>
+            <div>
+                <label for="number">Number (between 1 and 100): </label>
+                <input type="number" name="number" id="number">
+                <input type="button" value="Add" onclick="add()">
+            </div>
+        </form>
+
+        <ul id="list">
+        </ul>
+
+        <input type="button" value="Analyze" onclick="analyze()">
+
+        <div id="output">
+            
+        </div>
+    </section>
+    <footer>
+        <p>@mateusantoniodev</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
